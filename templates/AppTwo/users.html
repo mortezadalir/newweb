@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset ="utf-8">
+			<title> main page </title>
+	
+	
+	</head>
+	
+	<body>
+	    
+		<h1> here are your users: </h1>
+		
+		
+		 <ol>
+		 
+		     {% for xyx in my_content1 %}
+			<li> User Info
+			<ul>
+				<li>{{ xyx.FirstName}}</li>
+				<li>{{ xyx.LastName}}</li>
+				<li>{{ xyx.Email}}</li>
+			</ul>
+			</li>
+		 
+			
+				
+				
+			
+		 
+		 
+		 
+		 
+		 {% endfor %}
+		
+	</body>
+
+
+</html>
+<!-- <ul>
+		<li></li>
+	 </ul-->
