@@ -1,0 +1,16 @@
+body{
+   /*	background: url(https://mcdn.wallpapersafari.com/medium/5/20/7NVLhA.jpg);
+	*/
+	text-align: right;
+}
+
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+
+h1{
+	color: blue; 
+	
+}

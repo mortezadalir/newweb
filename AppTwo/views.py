@@ -13,7 +13,8 @@ def index(request):
           #  Email=form.cleaned_data['Email']
             users = User.objects.get_or_create(FirstName=form.cleaned_data['FirstName'],
                                           LastName=form.cleaned_data['LastName'],
-                                          Email=form.cleaned_data['Email'])
+                                          Email=form.cleaned_data['Email'],
+                                          text=form.cleaned_data['text'])
             print(form.cleaned_data['FirstName'])
     return render(request,'AppTwo/index.html',{'form':form})
     
